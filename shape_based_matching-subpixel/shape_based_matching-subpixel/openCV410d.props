@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+    <IncludePath>D:\work\3rdApp\opencv410\include;D:\work\3rdApp\opencv410\include\opencv2;D:\work\3rdApp\eigen;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\work\3rdApp\opencv410\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_calib3d410d.lib;opencv_core410d.lib;opencv_dnn410d.lib;opencv_features2d410d.lib;opencv_flann410d.lib;opencv_gapi410d.lib;opencv_highgui410d.lib;opencv_imgcodecs410d.lib;opencv_imgproc410d.lib;opencv_ml410d.lib;opencv_objdetect410d.lib;opencv_photo410d.lib;opencv_stitching410d.lib;opencv_video410d.lib;opencv_videoio410d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
